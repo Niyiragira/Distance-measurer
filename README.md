@@ -30,5 +30,5 @@ To start the application in development mode run the command below
 
 # Authors
 
-[Niyiragira Gerard](https://github.com/Niyiragira);
+[Niyiragira Gerard](https://github.com/Niyiragira)
 

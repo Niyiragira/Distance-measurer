@@ -26,7 +26,7 @@ function onLocationUpdate(event){
 }
 
 function onError(err){
-    alert("Cannot access location: "+err);
+    alert("Cannot access location: "+err.message);
 }
 
 function setA(){
@@ -57,9 +57,14 @@ function updateInfo(){
     if(A!=null && B!=null){
         let dist = getDistance(A,B);
         document.getElementById("info").innerHTML=
-            "distance<br>---------------------<br>"+Math.round(dist)
+            +Math.round(dist)
             +" meters";
     }
+}
+
+function resetForm(){
+    A= null;
+    B= null;
 }
 
 function latlonToXYZ(latlon, R){

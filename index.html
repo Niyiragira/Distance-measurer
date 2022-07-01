@@ -5,23 +5,41 @@
         <title>Distance-measurer</title>      
     </head>
     <body onload="main()">
+        <nav class="menuBar">
+            Distance measurer
+        </nav>
         <div class="verticalContainer">
             <div id="loc"></div>
+            <h1>Welcome!</h1> 
+            <i>Measure distance with accuracy higher than 50 meters!</i>
             <div class="horizontalContainer">
                 <button id="aBtn" onclick="setA()">Start</button>
                 <div id="info"></div>
                 <button id="bBtn" onclick="setB()">End</button>
             </div>
             <div id="instructions">
-                Welcome! To measure the distance(displacement) from your origin location to your destination location, proceed below:
+                To measure the distance(displacement) from your origin location to your destination location, proceed below:
                 <ol>
-                    <li>When asked to know your location on this device, click "Allow".</li>
+                    <li>Turn on location on your device.</li>
+                    <li>When asked to know your location, click "Allow".</li>
                     <li>Tap "Start" when you are at your origin location.</li>
                     <li>Tap "End" when you reach your destination location.</li>
-                    <li>The value indicated between "Start" and "End" is the distance from the two locations.</li>
+                    <li>The value indicated between "Start" and "End" is the distance from the two locations in meters(m).</li>
                 </ol>
+                <ul>
+                    <li>You must be having an internet connection at the start.</li>
+                    <li>You must be having an internet connection at end.</li>
+                    <li>Your cordinates are indicated at the button you tap.</li>
+                </ul>
+                N.B: This app measures only the displacement from your start point to your end point, not the length of the path taken!
             </div>
         </div>
+        <footer>
+            <hr/>
+            <p>
+                <i>Copyright @2022</i> by Niyiragira Gerard
+            </p>
+        </footer>
         <script src="script.js"></script>  
     </body>
 </html>

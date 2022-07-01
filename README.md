@@ -14,14 +14,14 @@ Making displacement measuring easier and convenient especially for surveying eng
 
 # Running the application in roduction mode 🚀
 
-[Distance-measurer]()
+Click here "[Distance-measurer](https://niyiragira.github.io/Distance-measurer/)"
 
 
 # Running the application 🔧
 
 Clone the repository on your local computer using the command below
 
-> `git clone `
+> `git clone https://github.com/Niyiragira/Distance-measurer.git`
 
 To start the application in development mode run the command below
 
@@ -30,5 +30,5 @@ To start the application in development mode run the command below
 
 # Authors
 
-[Niyiragira Gerard]();
+[Niyiragira Gerard](https://github.com/Niyiragira);
 
